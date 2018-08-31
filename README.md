@@ -10,6 +10,7 @@ A simple, light-weight Hexo theme. Featuring comments, syntax highlight, and mob
 ## Installation
 1. [Set up a Hexo site](https://hexo.io/docs/setup) as usual
 2. Add this theme to your site: 
+
 ```git clone https://github.com/benTheBike/simple-theme.git $PATH_TO_YOUR_SITE$/themes/simple-theme```
 
 3. Edit your site's ```_config.yml```. Change ```theme```'s value (by default it is ```landscape```), to ```simple-theme```)
