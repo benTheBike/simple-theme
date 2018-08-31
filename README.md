@@ -9,7 +9,7 @@ A simple, light-weight Hexo theme. Featuring comments, syntax highlight, and mob
 
 ## Installation
 ### First, set up your Hexo site like you normally would
-Instructions [here](https://hexo.io/docs/setup) as usual.
+Instructions [here](https://hexo.io/docs/setup).
 ### Now add this theme to your site
 By running this command
 
