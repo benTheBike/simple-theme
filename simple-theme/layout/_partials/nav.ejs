@@ -1,0 +1,23 @@
+<div id="navbar">
+    <span id="nav-title">
+        <h2><%= config.title %></h2>
+    </span>
+    <span style="text-align: center;">
+        <span id="navbar-items">
+            <% for (var i in theme.navbar_items) { %>
+                <a class="navbar-item" href="<%- url_for(theme.navbar_items[i]) %>"><%= i %></a>
+            <% } %>
+        </span>
+    </span>
+</div>
+<div id="navbar-mobile">
+    <span id="navbar-mobile--top">
+        <span id="mobile-navbar-title"><%= config.title %></span>
+        <button id="mobile-navbar-btn" onclick="nav()"><i class="fas fa-bars"> <b>Menu</b></i></button>
+        <div id="mobile-navbar--items">
+            <% for (var i in theme.navbar_items) { %>
+                <a class="mobile-navbar-item" href="<%- url_for(theme.navbar_items[i]) %>"><%= i %></a>
+            <% } %>
+        </div>
+    </span>
+</div>

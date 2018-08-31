@@ -1,0 +1,25 @@
+# simple-theme by ben 
+# https://github.com/benTheBike/simple-theme
+# https://ben.bike/dev/hexo-themes/simple-theme
+
+# Also see the "variables" section at the top of /source/css/styles.css for changing things like accent-color.
+
+# Items that appear in the navbar.
+# Format:   item_title: /url/
+navbar_items:
+  Home: 
+  Blog: 
+  Projects: 
+  Search: 
+
+# Link to a CSS theme to use with highlight js. If nothing is supplied, default will be used.
+# Preview - https://highlightjs.org/static/demo/
+# CDN - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/theme-name.min.css
+# 
+hljs_css: 
+
+# Comments
+# Using Gitment (https://github.com/imsun/gitment)
+comments:
+  client_id: 
+  client_secret: 

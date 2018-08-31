@@ -1,0 +1,11 @@
+<% if (page.categories && page.categories.length) { %>
+    <div id="post-categories">
+    <span class="caption"><b>Categories: </b></span>
+        <%- list_categories(page.categories, {
+            show_count: false,
+            class: "post-category",
+            style: "none",
+            seperator: ","
+        }) %>
+    </div>
+<% } %>

@@ -1,0 +1,18 @@
+<% if (page.comments) { %>
+    <h2>Comments</h2>
+    <div id="comments">
+        <!-- Comments! -->
+    </div>
+    <script>
+        const gitment = new Gitment({
+            id: "<%= page.title.replace(/[^\w\s]/gi, '').substring(0, 49) %>",
+            owner: "benTheBike",
+            repo: "benthebike.github.io",
+            oauth: {
+                client_id: "<%= theme.comments.client_id %>",
+                client_secret: "<%= theme.comments.client_secret %>"
+            }
+        });
+        gitment.render(document.getElementById("comments"));
+        </script>
+<% } %>

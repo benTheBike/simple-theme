@@ -1,0 +1,12 @@
+<center><h3>Posts</h3></center>
+<ul>
+    <% page.posts.each(function(post) { %>
+        <li class="post">
+            <h4 class="post-title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h4>
+            <% if (post.date) { %>
+                <i class="far fa-calendar-alt"></i>
+                <%= date(post.date, config.date_format) %>
+            <% } %>
+        </li>
+    <% }) %>
+</ul> 

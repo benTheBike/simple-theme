@@ -1,0 +1,23 @@
+<div id="post-meta">
+    <% if (page.date) { %>
+        <span class="post-date"> 
+            <span class="caption"><b>Posted on: </b></span><span class="post-date--date"><%= date(page.date, config.date_format) %></span>
+        </span>
+        <br>
+    <% } %>
+    <% if (page.author) { %>
+        <span class="post-author">
+            <span class="caption"><b>Written by: </b></span><%= page.author %>
+        </span>
+        <br>
+    <% } %>
+    <span class="post-tags">
+        <%- partial("_partials/tags.ejs") %>
+    </span>
+    <span class="post-categories">
+        <%- partial("_partials/categories.ejs") %>
+    </span>
+    <p>
+        <button class="btn" onclick="showPostMeta()">Close <i class="fas fa-times"></i></button>
+    </p>
+</div>

@@ -1,0 +1,13 @@
+<h1><%- page.title %></h1>
+<h2><%- page.subtitle%></h2>
+<% if (page.header_img) { %>
+    <%- partial("_partials/post_header_img.ejs") %>
+<% } %>
+<%- partial("_partials/post_quick_links.ejs") %>
+<%- partial("_partials/post_meta.ejs") %>
+<%- partial("_partials/page_divider.ejs") %>
+<%- page.content %>
+<%- partial("_partials/page_divider.ejs") %>
+<%- partial("_partials/share.ejs") %>
+<%- partial("_partials/page_divider.ejs") %>
+<%- partial("_partials/comments.ejs") %>
