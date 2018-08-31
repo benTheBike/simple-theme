@@ -14,6 +14,7 @@ A simple, light-weight Hexo theme. Featuring comments, syntax highlight, and mob
 3. Edit your site's ```_config.yml```. Change ```theme```'s value (by default it is ```landscape```), to ```simple-theme```)
 4. Generate and view your site
 ```hexo generate```
+
 ```hexo serve```
 
 ## Configuration
