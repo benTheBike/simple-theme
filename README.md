@@ -4,7 +4,6 @@ A simple, light-weight Hexo theme. Featuring comments, syntax highlight, and mob
 ## Features
 - mobile-friendly
 - configurable (as far as colors)
-- comments (Thanks to [Gitment](https://github.com/imsun/gitment))
 - syntax highlighting (Thanks to [highlight.js](https://highlightjs.org/))
 
 ## Installation
@@ -27,3 +26,4 @@ View ```_config.yml``` and ```source/css/styles.css```
 
 ## @TODO
 - add search page (for embedding google custom search)
+- add comment system
