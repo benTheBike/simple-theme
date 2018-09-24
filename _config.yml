@@ -17,9 +17,3 @@ navbar_items:
 # CDN - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/theme-name.min.css
 # 
 hljs_css: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-lakeside-dark.min.css"
-
-# Comments
-# Using Gitment (https://github.com/imsun/gitment)
-comments:
-  client_id: 50c34a9ae0a1140b7a94
-  client_secret: 3eb5713ac5e8eb098bf067ec31ff8465880cacf6
