@@ -24,3 +24,6 @@ Run the following Hexo commands
 
 ## Configuration
 View ```_config.yml``` and ```source/css/styles.css```
+
+## @TODO
+- add search page (for embedding google custom search)
