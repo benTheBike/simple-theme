@@ -1,9 +1,9 @@
 # simple-theme
-A simple, light-weight Hexo theme. Featuring comments, syntax highlight, and mobile compatible.
+A simple, light-weight Hexo theme. Featuring syntax highlighting for code samples, and a clean concise desktop and mobile view.
 
 ## Features
 - mobile-friendly
-- configurable (as far as colors)
+- configurable css variables
 - syntax highlighting (Thanks to [highlight.js](https://highlightjs.org/))
 
 ## Installation
@@ -27,3 +27,4 @@ View ```_config.yml``` and ```source/css/styles.css```
 ## @TODO
 - add search page (for embedding google custom search)
 - add comment system
+- download page layouts
