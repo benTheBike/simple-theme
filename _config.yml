@@ -14,6 +14,9 @@ navbar_items:
 # CDN - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/theme-name.min.css
 # 
 hljs_css: "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-lakeside-dark.min.css"
+<<<<<<< HEAD
 
 # If you use Google Custom Search, place your search indentifer (IE, the 'cx' variable's value in the auto-generated code google gives you)
 gsce_cx: 
+=======
+>>>>>>> c22ffa7dd33a9abceb77bd91509ba7b7615cf289
