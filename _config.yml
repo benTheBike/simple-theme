@@ -8,6 +8,9 @@
 # Format:   item_title: /url/
 navbar_items:
   Home: /
+  Blog: /blog
+  Projects: /dev
+  Search: /search
 
 # Link to a CSS theme to use with highlight js. If nothing is supplied, default will be used.
 # Preview - https://highlightjs.org/static/demo/
