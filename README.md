@@ -40,7 +40,7 @@ To create:
 
 In the front-matter, add ```layout: search```.
 
-_FYI: Custom search won't display when testing your site in http://localhost_
+_FYI: The custom search box won't display when testing your site in http://localhost_
 
 ## @TODO
 - add comment system
