@@ -16,7 +16,8 @@ By running this command
 ### Set the theme
 Open your site's ```_config.yml``` (*NOT* the theme's ```_config.yml```). Change ```theme```'s value (by default it is ```landscape```), to ```simple-theme```). Delete the ```landscape``` theme folder.
 ### Generate and view your site
-Run the following Hexo commands
+Run the following Hexo commands:
+
 ```hexo clean```
 
 ```hexo generate```
