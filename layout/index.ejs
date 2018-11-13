@@ -1,4 +1,4 @@
-<center><h3>Posts</h3></center>
+<h3 style="text-align: center;">Posts</h3>
 <ul>
     <% page.posts.each(function(post) { %>
         <li class="post">
@@ -7,6 +7,10 @@
                 <i class="far fa-calendar-alt"></i>
                 <%= date(post.date, config.date_format) %>
             <% } %>
+            <br>
+            <% if (post.author) { %> <i class="fas fa-user-alt"></i> Written by: <%= post.author %> <% } %>
+            <br>
+            <% if (post.excerpt) { %> <i class="fas fa-ellipsis-h"></i> Excerpt:<br><p class="index-excerpt"><%- post.excerpt %></p> <% } %>
         </li>
     <% }) %>
 </ul> 

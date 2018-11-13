@@ -1,7 +1,7 @@
 /* Variables */
 :root {
     /* Colors */
-    --accent-color: #1A237E;
+    --accent-color: #1e7145;
     --background-color: #E0E0E0;
     /* Fonts */
     --sans-serif-font: "Arial", sans-serif;
@@ -15,6 +15,11 @@
 }
 ::-moz-selection {
     background: #a3bfed; 
+}
+
+/* Index */
+.index-excerpt {
+    margin-left: 20px;
 }
 
 /* navbar */
