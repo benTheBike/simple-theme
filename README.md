@@ -43,3 +43,5 @@ In the front-matter, add ```layout: search```.
 ## @TODO
 - add comment system
 - download page layouts
+- update docs with front-matter options
+- excerpts
