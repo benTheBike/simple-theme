@@ -46,3 +46,4 @@ In the front-matter, add ```layout: search```.
 - download page layouts
 - update docs with front-matter options
 - Google Analytics
+- Favicon
