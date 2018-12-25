@@ -44,4 +44,4 @@ In the front-matter, add ```layout: search```.
 - add comment system
 - download page layouts
 - update docs with front-matter options
-- excerpts
+- Google Analytics
