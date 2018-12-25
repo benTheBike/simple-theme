@@ -2,15 +2,16 @@
 <ul>
     <% page.posts.each(function(post) { %>
         <li class="post">
-            <h4 class="post-title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h4>
-            <% if (post.date) { %>
-                <i class="far fa-calendar-alt"></i>
-                <%= date(post.date, config.date_format) %>
-            <% } %>
-            <br>
-            <% if (post.author) { %> <i class="fas fa-user-alt"></i> Written by: <%= post.author %> <% } %>
-            <br>
-            <% if (post.excerpt) { %> <i class="fas fa-ellipsis-h"></i> Excerpt:<br><p class="index-excerpt"><%- post.excerpt %></p> <% } %>
+            <h3 class="index-post-title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h3>
+            <span class="index-page-meta">
+                <% if (post.date) { %>
+                    <i class="far fa-calendar-alt"></i> Date: 
+                    <%= date(post.date, config.date_format) %>
+                <% } %>
+                <br>
+                <% if (post.author) { %> <i class="fas fa-user-alt"></i> Written by: <%= post.author %> <% } %>
+            </span>
+            <% if (post.excerpt) { %> <br> <span class="index-excerpt"> <%- post.excerpt %> </span> <a href="<%- url_for(post.path) %>"><i class="fas fa-ellipsis-h"></i> Keep reading</a> <% } %>
         </li>
     <% }) %>
 </ul> 

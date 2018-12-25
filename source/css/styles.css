@@ -19,7 +19,14 @@
 
 /* Index */
 .index-excerpt {
-    margin-left: 20px;
+    font-size: 95%;
+    font-family: var(--serif-font);
+}
+
+.index-page-meta {
+    display: inline-block;
+    padding: 3px;
+    background-color: var(--background-color);
 }
 
 /* navbar */
@@ -42,6 +49,11 @@
 
 #navbar-mobile {
     padding-top: 10px;
+}
+
+#navbar-items {
+    background-color: var(--background-color);
+    padding: 15px;
 }
 
 .navbar-item {
@@ -184,4 +196,17 @@ h1, h2, h3, h4, h5, h6 {
 
 td .gutter { /* line numbers */
     font-weight: bold;
+}
+
+/* Util */
+.serif {
+    font-family: var(--serif-font);
+}
+
+.sans-serif {
+    font-family: var(--sans-serif-font);
+}
+
+.monospace {
+    font-family: var(--mono-font);
 }

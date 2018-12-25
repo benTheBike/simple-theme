@@ -31,6 +31,13 @@ window.onload = function() {
         document.getElementById("twitter-share-btn").setAttribute("href", document.getElementById("twitter-share-btn").getAttribute("href") + window.location.href);     
     }
 
+    // Check to see if the share div in in the viewport. If it is, disable the share button
+    if (document.body.contains(document.getElementById("share"))) {
+        if (inViewport(document.getElementById("share"))) {
+            document.getElementById("share-btn").style.display = "none";
+        }
+    }
+
     // Define UI variables
     navClosed = true;
     shareClosed = true;
@@ -88,3 +95,14 @@ function goToComments() {
 function goToShare() {
     document.getElementById("share").scrollIntoView();
 }
+
+// Checks to see if an element is visible in the viewport
+var inViewport = function(el) {
+    var bounds = el.getBoundingClientRect();
+    return (
+        bounds.top >= 0 &&
+        bounds.left >= 0 &&
+        bounds.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        bounds.right <= (window.innerWidth || documment.documentElement.clientWidth)
+        );
+};
