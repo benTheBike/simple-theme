@@ -12,7 +12,8 @@ Instructions [here](https://hexo.io/docs/setup).
 ### Now add this theme to your site
 By running this command
 
-```git clone https://github.com/benTheBike/simple-theme.git $PATH_TO_YOUR_SITE$/themes/simple-theme```
+```cd c:/my_hexo_site"
+```git clone https://github.com/bendotbike/simple-theme.git themes/simple-theme```
 ### Set the theme
 Open your site's ```_config.yml``` (*NOT* the theme's ```_config.yml```). Change ```theme```'s value (by default it is ```landscape```), to ```simple-theme```). Delete the ```landscape``` theme folder.
 ### Generate and view your site
